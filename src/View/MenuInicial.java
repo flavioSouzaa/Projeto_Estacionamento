@@ -7,18 +7,18 @@ import CriaClasses.VerificaCampos;
 
 public class MenuInicial {
 
-//******************************************\\
-	VerificaCampos number = new VerificaCampos();
-	RecebeOpcao rp = new RecebeOpcao();
-	Scanner in = new Scanner(System.in);
-//******************************************\\
+//****************************************************\\
+	VerificaCampos number = new VerificaCampos(  );
+	RecebeOpcao    rp     = new RecebeOpcao   (  );
+	Scanner       in      = new Scanner(System.in);
+//****************************************************\\
 	public int Menuinicial() {
-//******************************************\\		
+//*****************************************************\\		
 		boolean found 	 = false;
 		final int ULTIMO = 3;
 		int opcao 		 = 0;
 		String temp 	 = null;
-//******************************************\\
+//******************************************************\\
 
 		while (true) {
 			System.out.println("\n\n=== Menu ===");

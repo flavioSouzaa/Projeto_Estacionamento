@@ -1,26 +1,27 @@
 package CriaClasses;
 
 public class Hora {
-
-	long Dia;
-	long Mes;
-	long Ano;	
-	long Hora;
-	long Minuto;
-	long Segundo;
-	
+//*************************************************//
+	long Dia    		 ;
+	long Mes    		 ;
+	long Ano    		 ;	
+	long Hora   		 ;
+	long Minuto 		 ;
+	long Segundo		 ;
+//*************************************************//
 
 	public Hora() {
-		
 	}
 	
 	public Hora(long dia, long mes, long ano, long hora, long minuto, long segundo) {
-		Dia = dia;
-		Mes = mes;
-		Ano = ano;
-		Hora = hora;
-		Minuto = minuto;
-		Segundo = segundo;
+//*************************************************//
+		Dia = dia		  ;
+		Mes = mes		  ;
+		Ano = ano		  ;
+		Hora = hora       ;
+		Minuto = minuto   ;
+		Segundo = segundo ;
+//*************************************************//
 	}
 
 	public long getDia() {

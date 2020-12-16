@@ -2,18 +2,21 @@ package CriaClasses;
 
 import java.util.ArrayList;
 public class Estacionamento {
-	private String endereco;
-	private int qtdCarros;
-	private String nome;    
+//*************************************************//
+	private String endereco      ;
+	private int    qtdCarros     ;
+	private String nome          ;    
     private ArrayList<Vaga> vagas;
     private ArrayList<Hora> horas;
-    
+//*************************************************//    
 	public Estacionamento(String nome, String endereco, int qtdCarros, ArrayList<Vaga> vagas, ArrayList<Hora> horas) {		
-		this.nome = nome;
-		this.endereco = endereco;
+//*************************************************//
+		this.nome      = nome     ;
+		this.endereco  = endereco ;
 		this.qtdCarros = qtdCarros;
-		this.vagas = vagas;
-		this.horas = horas; 
+		this.vagas     = vagas    ;
+		this.horas     = horas    ; 
+//*************************************************//
 	}
 	
 	public ArrayList<Hora> getHoras() {

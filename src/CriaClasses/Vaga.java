@@ -1,21 +1,22 @@
 package CriaClasses;
 
 public class Vaga {
-
-	private int idt;
-    private String placaCarro;
-    private String horaEntrada;
-    private String horaSaida;
-    private String horarioOcupacao;
-
+//*************************************************//
+	private int idt                           ;
+    private String placaCarro                 ;
+    private String horaEntrada                ;
+    private String horaSaida                  ;
+    private String horarioOcupacao			  ;
+//*************************************************//
 
 	public Vaga(int idt, String placaCarro,String horaEntrada,String horaSaida, String horarioOcupacao) {
-        this.idt = idt;
-        this.placaCarro = placaCarro;
-        this.horaEntrada = horaEntrada;
-        this.horaSaida = horaSaida;
+//*************************************************//       
+		this.idt 		 = idt                ;
+        this.placaCarro  = placaCarro         ;
+        this.horaEntrada = horaEntrada        ;
+        this.horaSaida   = horaSaida          ;
         this.horarioOcupacao = horarioOcupacao;        
-
+ //*************************************************//
     }
     
     public String getHoraEntrada() {
@@ -67,7 +68,5 @@ public class Vaga {
     	return "ID: " + idt + "\n"+ "Placa do Veiculo:" + placaCarro + "\n" +"Hora de Entrada:" +   horaEntrada  + "\n" +"***********************************";     		 
     	
         return "ID: " + idt + "\n"+ "Placa do Veiculo: " + placaCarro + "\n" +"Hora de Entrada:  " +   horaEntrada  + "\n" +"Hora de Saída:    " + horaSaida + "\n" + "Hora de Ocupação: "+ horarioOcupacao + "\n" +"***********************************";     		 
-    	
-        		 
     }
 }

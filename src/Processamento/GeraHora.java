@@ -45,12 +45,12 @@ public class GeraHora {
 		
 	
 	public void CalcularHora() {
-//***************************************************\\		
-		long curr;
+//********************************************************\\		
+		long curr                                     ;
 		String dataFormatadaEntrada,dataFormatadaSaida;
-		Date horaSistama;
-		Date horaSaida;
-//***************************************************\\
+		Date horaSistama							  ;
+		Date horaSaida 								  ;
+//*********************************************************\\
 		horaSistama = GeraHora.DataSistema();		
 		horaSaida   = GeraHora.ObterDataComDiferencaMinutos(192);
 				

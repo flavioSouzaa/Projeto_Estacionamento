@@ -6,13 +6,13 @@ import Processamento.Utils_Placa;
 
 public class GeraPlaca {
 
-//***************************************************\\
-	StringBuilder stgb = new StringBuilder();
-	Utils_Placa util = new Utils_Placa();
-	Random ran = new Random();
-	String placaVelho = null;
-	String placaNova = null;
-//***************************************************\\
+//******************************************************\\
+	StringBuilder  stgb       = new StringBuilder();
+	Utils_Placa    util       = new Utils_Placa	 ();
+	Random         ran        = new Random	     ();
+	String         placaVelho = null			   ;
+	String         placaNova  = null			   ;
+//*******************************************************\\
 
 	public String PadraoNovo() {
 

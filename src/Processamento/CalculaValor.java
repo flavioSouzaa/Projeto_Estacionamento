@@ -6,11 +6,11 @@ public class CalculaValor {
 
 		float valorHoraPermanencia;
 		public void CalculaValorPermanencia() {
-//***************************************************\\
-		GeraHora grh = new GeraHora();		
-		Hora horas = new Hora(0, 0 ,0, 3, 15, 0);
-		Utils_valores util = new Utils_valores();
-//***************************************************\\
+//**********************************************************\\
+		Utils_valores util  = new Utils_valores(        );
+		Hora 		  horas = new Hora(0, 0 ,0, 3, 15, 0);
+		GeraHora      grh   = new GeraHora(		        );		
+//***********************************************************\\
 		grh.CalcularHora();
 		
 		

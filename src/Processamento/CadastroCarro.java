@@ -10,22 +10,22 @@ public class CadastroCarro {
 
 	public void cadastro() {
 		
-//***************************************************\\
-		VerificaCampos verifica = new VerificaCampos();
-		Scanner in = new Scanner(System.in);		
-		GeraPlaca  pl = new GeraPlaca();
-		GeraHora   hora  = new GeraHora();
-//***************************************************\\		
-		boolean found 			=  false;
-		String temp   			=  null;
-		String placa  			=  null;
-		String horaEntrada  	=  null;
-		String horaSaida   	    =  null;
-		String horarioOcupacao  =  null;
-		int opcao     			= 0;
-		int id        			= 0;
+//*****************************************************************\\
+		VerificaCampos verifica = new VerificaCampos(         );
+		Scanner    in    = new Scanner              (System.in);		
+		GeraPlaca  pl    = new GeraPlaca            (         );
+		GeraHora   hora  = new GeraHora             (         );
+//******************************************************************\\		
+		boolean found 			=  false ;
+		String temp   			=  null  ;
+		String placa  			=  null  ;
+		String horaEntrada  	=  null  ;
+		String horaSaida   	    =  null  ;
+		String horarioOcupacao  =  null  ;
+		int opcao     			=  0     ;
+		int id        			=  0     ;
 		Date D_horaSistema;
-//***************************************************\\
+//********************************************************************\\
 		
 		System.out.println("\n");
 

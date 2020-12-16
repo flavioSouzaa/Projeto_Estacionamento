@@ -11,17 +11,17 @@ import CriaClasses.VerificaCampos;
 
 public class MenuCadastroEstacionamento {
 	public void castro() {
-//***************************************************\\	
-		VerificaCampos verifica = new VerificaCampos();
-		Scanner in = new Scanner(System.in);
-//***************************************************\\		
+//********************************************************\\	
+		VerificaCampos verifica = new VerificaCampos(  );
+		Scanner        in       = new Scanner(System.in);
+//********************************************************\\		
 		boolean controle = false;
 		boolean found    = false;
-		String endereco  = null;
-		String temp    	 = null;
-		String nome 	 = null;
-		int qtdCarros 	 = 0;
-//***************************************************\\	 				
+		String endereco  = null ;
+		String temp    	 = null ;
+		String nome 	 = null ;
+		int qtdCarros 	 = 0    ;
+//*********************************************************\\	 				
 		ArrayList<Estacionamento> estacionamento = new ArrayList<Estacionamento>();
 		ArrayList<Vaga> vaga = new ArrayList<>();
 		ArrayList<Hora> horas = new ArrayList<>();
