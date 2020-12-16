@@ -84,7 +84,7 @@ public class Hora {
 	
 	public String toString() {
 				
-		return "Tempo de Permanencia: " + "" +  "Horas: " + getHora() +" "+ "Minutos:"+getMinuto();
+		return "Tempo de Permanencia: " + "\n" +  "Horas: " + getHora() +" "+ "Minutos:"+getMinuto();
 		
 	}
 }

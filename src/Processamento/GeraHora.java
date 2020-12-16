@@ -64,7 +64,7 @@ public class GeraHora {
 		
 		if(horas.getMinuto() >60)
 			horas.setMinuto(TimeUnit.MINUTES.convert(curr, TimeUnit.MILLISECONDS)%60);
-		
+		System.out.println("*************************************************");
 		System.out.println("Data do Sistema: "+ dataFormatadaEntrada);
 		System.out.println("Data Modificada: "+ dataFormatadaSaida);
 		
