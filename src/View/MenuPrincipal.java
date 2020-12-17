@@ -45,7 +45,7 @@ public void MenuPrincipal() {
 				
 		switch(opcaoSelecionada){
 		
-        case 1: carro.cadastro();;
+        case 1: carro.RegistrarVeiculo();
             break;
         case 2:;
             break;

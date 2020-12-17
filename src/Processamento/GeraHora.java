@@ -52,7 +52,7 @@ public class GeraHora {
 		Date horaSaida 								  ;
 //*********************************************************\\
 		horaSistama = GeraHora.DataSistema();		
-		horaSaida   = GeraHora.ObterDataComDiferencaMinutos(82);
+		horaSaida   = GeraHora.ObterDataComDiferencaMinutos(92);
 				
 		curr = Math.abs(horaSaida.getTime() - horaSistama.getTime());
 		

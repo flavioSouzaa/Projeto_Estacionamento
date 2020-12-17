@@ -8,7 +8,7 @@ import CriaClasses.VerificaCampos;
 
 public class CadastroCarro {
 
-	public void cadastro() {
+	public void RegistrarVeiculo() {
 		
 //*****************************************************************\\
 		VerificaCampos verifica = new VerificaCampos(         );
@@ -34,8 +34,8 @@ public class CadastroCarro {
 		D_horaSistema = hora.DataSistema();
 		horaEntrada   = hora.ObterDataFormatada(D_horaSistema);
 
-		horaSaida       = hora.ObterDataFormatada(D_horaSistema);
-		horarioOcupacao = hora.ObterDataFormatada(D_horaSistema);
+		//horaSaida       = hora.ObterDataFormatada(D_horaSistema);
+		//horarioOcupacao = hora.ObterDataFormatada(D_horaSistema);
 		
 		System.out.println("Cadastro realizado com Sucesso.");
 		System.out.println("\n");
