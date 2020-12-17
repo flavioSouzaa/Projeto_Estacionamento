@@ -44,7 +44,7 @@ public class GeraHora {
 	
 		
 	
-	public void CalcularHora() {
+	public Hora CalcularHora() {
 //********************************************************\\		
 		long curr                                     ;
 		String dataFormatadaEntrada,dataFormatadaSaida;
@@ -52,7 +52,7 @@ public class GeraHora {
 		Date horaSaida 								  ;
 //*********************************************************\\
 		horaSistama = GeraHora.DataSistema();		
-		horaSaida   = GeraHora.ObterDataComDiferencaMinutos(192);
+		horaSaida   = GeraHora.ObterDataComDiferencaMinutos(82);
 				
 		curr = Math.abs(horaSaida.getTime() - horaSistama.getTime());
 		
@@ -69,6 +69,7 @@ public class GeraHora {
 		System.out.println("Data Modificada: "+ dataFormatadaSaida);
 		
 		System.out.println(horas.toString());
+		return horas;
 	}
 }
 

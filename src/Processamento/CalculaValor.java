@@ -8,15 +8,10 @@ public class CalculaValor {
 		public void CalculaValorPermanencia() {
 //**********************************************************\\
 		Utils_valores util  = new Utils_valores(        );
-		Hora 		  horas = new Hora(0, 0 ,0, 3, 15, 0);
-		GeraHora      grh   = new GeraHora(		        );		
+		Hora 		  horas = new Hora		   (        );
+		GeraHora      grh   = new GeraHora     (	    );		
 //***********************************************************\\
-		grh.CalcularHora();
-		
-		
-		//horas.setHora(3);
-		//horas.setMinuto(35);
-			
+		horas = grh.CalcularHora();
 		
 		if((horas.getMinuto() > util.TRINTA_MINUTOS) && (horas.getHora() < util.UMA_HORA)) {
 			valorHoraPermanencia = util.VALOR_TRINTA_MINUTOS;
